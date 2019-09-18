@@ -2,23 +2,26 @@ package com.company;
 import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 import org.w3c.dom.ls.LSOutput;
 
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        if (a < b) {
-            System.out.println("나중이 더 큼");
-        } else if (a == b) {
-            System.out.println("두 수가 같음");
-        } else {
-            System.out.println("처음이 더 큼");
+public static void main(String[]args){
+        
         }
-    }
-}
+//import java.util.Scanner;
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        if (a < b) {
+//            System.out.println("나중이 더 큼");
+//        } else if (a == b) {
+//            System.out.println("두 수가 같음");
+//        } else {
+//            System.out.println("처음이 더 큼");
+//        }
+//    }
+//}
 
 //        Scanner sc = new Scanner(System.in);
 //        int a = sc.nextInt();
